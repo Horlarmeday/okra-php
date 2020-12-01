@@ -14,9 +14,9 @@ class Okra
     protected $access_token;
     protected $baseUrl;
 
-    public function __construct($accessToken = "", $env = "prod")
+    public function __construct($ACCESS_TOKEN = "", $env = "prod")
     {
-        $this->access_token = $accessToken;
+        $this->access_token = $ACCESS_TOKEN;
         $this->guzzle = new GuzzleFetch($this->access_token);
 
         if ($env == "prod")

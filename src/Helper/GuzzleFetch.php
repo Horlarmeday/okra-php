@@ -5,6 +5,7 @@ namespace App\Helper;
 
 
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 
 class GuzzleFetch
 {
