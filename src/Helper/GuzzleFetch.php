@@ -40,4 +40,8 @@ class GuzzleFetch
         }
 
     }
+
+    public function decode($data){
+        return json_decode(json_encode($data));
+    }
 }
