@@ -7,7 +7,7 @@ okra-php is a PHP library for okra core products.
 Use the package manager [composer](https://getcomposer.org/download/) to install okra-php.
 
 ```bash
-composer require mahmud/okra-php
+composer require horlarmeday/okra-php
 ```
 
 ## Usage
